@@ -95,7 +95,8 @@
     margin-right: auto;
 }
 
-.save-plan {
+.save-plan,
+.save-nutritionist {
     border-radius: 16px;
     background-color: #008CFF;
     color: #FFF;
@@ -162,3 +163,23 @@
 .work-out {}
 
 .keep-track-of-food {}
+
+.nutritionist-list-table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.nutritionist-list-table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 16px;
+}
